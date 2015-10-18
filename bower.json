@@ -1,0 +1,28 @@
+{
+  "name": "WindedEye",
+  "description": "",
+  "main": "",
+  "authors": [
+    "lengsel77 <s.cunningham777@gmail.com>"
+  ],
+  "license": "none",
+  "homepage": "https://github.com/scunningham777/WindedEye",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1",
+    "backbone.localStorage": "Backbone.localStorage#~1.1.16",
+    "backbone-amd": "~1.1.0",
+    "requirejs": "~2.1.20",
+    "requirejs-tpl": "*"
+  }
+}
