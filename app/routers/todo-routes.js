@@ -9,10 +9,13 @@ define(function(require, exports, module) {
             this.app = options.app;
         },
         routes: {
-            '*filter' : 'setFilter'
+            ':filter' : 'setFilter'
         },
         setFilter: function(params) {
             console.log('router.params = ' + params);
+            if (params == null) {
+                return;
+            }
             var filter = params.trim() || '';
             this.app.showView('todoList', {
                 params: {
